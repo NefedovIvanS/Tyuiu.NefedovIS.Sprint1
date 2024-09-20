@@ -6,7 +6,7 @@ namespace Tyuiu.NefedovIS.Sprint1.Task1.V8.Lib
     {
         public double Calculate(double a, double x)
         {
-            return (x * Math.PI) / a;
+            return (x * 3.14) / a;
         }
     }
 }
