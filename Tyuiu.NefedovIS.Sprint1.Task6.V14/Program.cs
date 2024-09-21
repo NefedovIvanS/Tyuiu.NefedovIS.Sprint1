@@ -6,7 +6,25 @@ namespace Tyuiu.NefedovIS.Sprint1.Task6.V14
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            DataService ds = new DataService();
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+
+            string value;
+
+            Console.WriteLine("Введите значение k:");
+            value = Convert.ToString(Console.ReadLine());
+
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+
+            //Console.WriteLine($"{ds.Calculate(k)}");
+            Console.WriteLine($"{ds.CheckLowerCaseRusLetters(value)}");
+
+            Console.ReadLine();
         }
     }
 }

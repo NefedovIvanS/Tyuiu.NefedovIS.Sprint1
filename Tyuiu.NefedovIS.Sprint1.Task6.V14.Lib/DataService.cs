@@ -6,7 +6,7 @@ namespace Tyuiu.NefedovIS.Sprint1.Task6.V14.Lib
     {
         public bool CheckLowerCaseRusLetters(string value)
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }
