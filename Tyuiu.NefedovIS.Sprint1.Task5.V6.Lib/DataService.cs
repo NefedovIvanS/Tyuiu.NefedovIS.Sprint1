@@ -6,7 +6,7 @@ namespace Tyuiu.NefedovIS.Sprint1.Task5.V6.Lib
     {
         public int Calculate(int k)
         {
-            return k % 8;
+            return k % 7;
         }
     }
 }
