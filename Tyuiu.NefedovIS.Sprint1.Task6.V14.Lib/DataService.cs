@@ -6,7 +6,22 @@ namespace Tyuiu.NefedovIS.Sprint1.Task6.V14.Lib
     {
         public bool CheckLowerCaseRusLetters(string value)
         {
-            return true;
+            bool flag = true;
+            char[] russianLetters = new char[33];
+            for (int i = 0; i < 32; i++)
+            {
+                russianLetters[i] = (char)('а' + i);
+            }
+            russianLetters[32] = ' ';
+            foreach (char c in value)
+            {
+                if (!Array.Exists(russianLetters, element => element == c))
+                {
+                    flag = false;
+                    break;
+                }
+            }
+            return flag;
         }
     }
 }

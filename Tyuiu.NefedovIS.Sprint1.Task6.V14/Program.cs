@@ -13,7 +13,7 @@ namespace Tyuiu.NefedovIS.Sprint1.Task6.V14
 
             string value;
 
-            Console.WriteLine("Введите значение k:");
+            Console.WriteLine("Введите строку:");
             value = Convert.ToString(Console.ReadLine());
 
 
@@ -21,7 +21,6 @@ namespace Tyuiu.NefedovIS.Sprint1.Task6.V14
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            //Console.WriteLine($"{ds.Calculate(k)}");
             Console.WriteLine($"{ds.CheckLowerCaseRusLetters(value)}");
 
             Console.ReadLine();
