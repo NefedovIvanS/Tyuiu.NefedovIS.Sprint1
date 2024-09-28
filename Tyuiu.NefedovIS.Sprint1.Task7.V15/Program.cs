@@ -11,10 +11,10 @@ namespace Tyuiu.NefedovIS.Sprint1.Task7.V15
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int x;
+            double x;
 
             Console.WriteLine("Введите x:");
-            x = Convert.ToInt32(Console.ReadLine());
+            x = Convert.ToDouble(Console.ReadLine());
 
 
             Console.WriteLine("***************************************************************************");
